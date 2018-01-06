@@ -2,6 +2,8 @@
 
 ### 用法
 
+具体用法可以我上传的这个例子
+
 `MyLocation`类只包含了四个方法
 
 ```java
@@ -29,7 +31,7 @@ public void stop();
       }
   ```
 
-* `ask4BDPermission()` 在调用`requestLocation()`运行，用于获取权限
+* `ask4BDPermission()` 在调用前`requestLocation()`运行，用于获取权限
 
 * `onRecievePermission()`在重载`onRequestPermissionsResult()`中运行，用于检测授权情况。
 
